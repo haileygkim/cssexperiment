@@ -1,0 +1,49 @@
+body {
+
+  background-color: red;
+}
+.innerbox {
+	background-color: darkorange;
+	 padding: 20px;
+   font-family:arial;
+   font-weight:bold;
+   font-size: 100px;
+   text-align:center;
+   color:white;
+
+}
+
+h1, p {
+  font-family: arial;
+}
+
+.outerbox {
+  display: flex;
+}
+
+.outerbox div > p {
+  background-color: orange;
+  margin: 200px;
+  padding: 10px;
+  justify-content: center;
+   width: 50vmin;
+    height: 50vmin;
+}
+
+.box1 {
+      width: 50vmin;
+      height: 53vmin;
+      background-color: floralwhite;
+      font-size: 20px;
+      text-align:center;
+      color:red;
+
+    }
+
+.video {
+  
+    position: absolute; 
+  top: 660px;
+  right: 50px;
+  border: 6px solid green;
+}
